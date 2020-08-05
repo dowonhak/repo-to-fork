@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3em;
+}
+
+#header {
+  flex: 2 1 0;
+  background: darkgreen;
+}
+
+#main {
+  flex: 7 1 0;
+  background: darkblue;
+}
+
+#footer {
+  flex: 1 1 0;
+  background: gray;
+}
+
